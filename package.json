@@ -1,0 +1,29 @@
+{
+  "name": "signal-channel-kit",
+  "version": "0.1.0",
+  "description": "A Telegram bot for a forex signal channel: post signals by command or TradingView alert, and keep a pinned record that counts the losses.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "export": "node src/export.js"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "forex",
+    "trading-signals",
+    "signal-channel",
+    "tradingview",
+    "webhook"
+  ],
+  "homepage": "https://github.com/TradingSignalBot/signal-channel-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TradingSignalBot/signal-channel-kit.git"
+  }
+}
